@@ -2,11 +2,13 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class apptest1 
+public class Apptest2
 {
 	@Test
 	public void testApp()
     {
-        assertEquals(0,new App1().calculateSomething());
+        assertEquals(0,new App2().calculateSomething());
     }
 }
+
+
